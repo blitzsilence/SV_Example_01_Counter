@@ -1,3 +1,34 @@
-# SV_Example_01_Counter
+# SV_Example_Counter
 
-SystemVerilog testbench environment practice for a simple counter DUT
+## Intro
+
+SystemVerilog testbench practice for a simple counter DUT
+
+
+## Verification Environment
+```
+    Project_root
+    │
+    ├── rtl
+    │   └── counter.v
+    ├── sim
+    │   └── Makefile
+    └── tb
+        └── tb_counter.sv
+            ├── Interface
+            ├── Transaction
+            ├── Generator
+            ├── Driver
+            ├── Monitor
+            ├── Scoreboard
+            ├── Environment
+            ├── Test
+            └── Top_tb
+```
+
+#### Makefile excution
+make comp 
+
+make sim
+
+
